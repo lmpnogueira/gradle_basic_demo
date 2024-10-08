@@ -29,5 +29,11 @@ replay_pid*
 # Ignore Gradle build output directory
 build
 
+# Make sure to not ignore the Gradle wrapper scripts
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!gradlew
+!gradlew.bat
+
 # MacOS
 .DS_Store
